@@ -19,10 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/bin/abtfilt:system/bin/abtfilt \
     vendor/huawei/c8813/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/huawei/c8813/proprietary/bin/akmd8975:system/bin/akmd8975 \
-    vendor/huawei/c8813/proprietary/bin/amploader:system/bin/amploader \
     vendor/huawei/c8813/proprietary/bin/athtestcmd:system/bin/athtestcmd \
     vendor/huawei/c8813/proprietary/bin/atserver:system/bin/atserver \
-    vendor/huawei/c8813/proprietary/bin/bmgr:system/bin/bmgr \
     vendor/huawei/c8813/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/huawei/c8813/proprietary/bin/diag_dci_client:system/bin/diag_dci_client \
     vendor/huawei/c8813/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
@@ -34,11 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/c8813/proprietary/bin/hwdevctlservice:system/bin/hwdevctlservice \
     vendor/huawei/c8813/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
-    vendor/huawei/c8813/proprietary/bin/loc_api_app:system/bin/loc_api_app \
-    vendor/huawei/c8813/proprietary/bin/mm-jpeg-enc-test-client:system/bin/mm-jpeg-enc-test-client \
     vendor/huawei/c8813/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/huawei/c8813/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/huawei/c8813/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
     vendor/huawei/c8813/proprietary/bin/modempre:system/bin/modempre \
     vendor/huawei/c8813/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/huawei/c8813/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -50,16 +45,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/c8813/proprietary/bin/qosmgr:system/bin/qosmgr \
     vendor/huawei/c8813/proprietary/bin/qrngd:system/bin/qrngd \
-    vendor/huawei/c8813/proprietary/bin/rild:system/bin/rild \
     vendor/huawei/c8813/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/c8813/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/huawei/c8813/proprietary/bin/thermald:system/bin/thermald \
     vendor/huawei/c8813/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/huawei/c8813/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
-    vendor/huawei/c8813/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/huawei/c8813/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/huawei/c8813/proprietary/lib/libauth.so:system/lib/libauth.so \
-    vendor/huawei/c8813/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/huawei/c8813/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/huawei/c8813/proprietary/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
     vendor/huawei/c8813/proprietary/lib/libchromatix_ov5647_ff_default_video.so:system/lib/libchromatix_ov5647_ff_default_video.so \
     vendor/huawei/c8813/proprietary/lib/libchromatix_ov5647_ff_preview.so:system/lib/libchromatix_ov5647_ff_preview.so \
@@ -82,18 +73,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/huawei/c8813/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/huawei/c8813/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/huawei/c8813/proprietary/lib/libgenlock.so:system/lib/libgenlock.so \
     vendor/huawei/c8813/proprietary/lib/libgetzip.so:system/lib/libgetzip.so \
     vendor/huawei/c8813/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
-    vendor/huawei/c8813/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/huawei/c8813/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
-    vendor/huawei/c8813/proprietary/lib/libhwcexternal.so:system/lib/libhwcexternal.so \
-    vendor/huawei/c8813/proprietary/lib/libhwcservice.so:system/lib/libhwcservice.so \
     vendor/huawei/c8813/proprietary/lib/libhwdevctl_client.so:system/lib/libhwdevctl_client.so \
     vendor/huawei/c8813/proprietary/lib/libhwdevctlservice.so:system/lib/libhwdevctlservice.so \
     vendor/huawei/c8813/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
     vendor/huawei/c8813/proprietary/lib/libhwrpc.so:system/lib/libhwrpc.so \
-    vendor/huawei/c8813/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/huawei/c8813/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/huawei/c8813/proprietary/lib/libifdsmartcardapi.so:system/lib/libifdsmartcardapi.so \
     vendor/huawei/c8813/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
@@ -102,7 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
     vendor/huawei/c8813/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/huawei/c8813/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
-    vendor/huawei/c8813/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/huawei/c8813/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/huawei/c8813/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/huawei/c8813/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
@@ -158,21 +143,17 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/huawei/c8813/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
     vendor/huawei/c8813/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
-    vendor/huawei/c8813/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/huawei/c8813/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/huawei/c8813/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/huawei/c8813/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/huawei/c8813/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-    vendor/huawei/c8813/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
     vendor/huawei/c8813/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/huawei/c8813/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
     vendor/huawei/c8813/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/huawei/c8813/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/huawei/c8813/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/huawei/c8813/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/huawei/c8813/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/huawei/c8813/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/huawei/c8813/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/huawei/c8813/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/huawei/c8813/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/huawei/c8813/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
@@ -181,17 +162,24 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/huawei/c8813/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/huawei/c8813/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
-    vendor/huawei/c8813/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/huawei/c8813/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/huawei/c8813/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/huawei/c8813/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/huawei/c8813/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/huawei/c8813/proprietary/lib/hw/camera.msm7627a.so:system/lib/hw/camera.msm7627a.so \
-    vendor/huawei/c8813/proprietary/lib/hw/copybit.msm7627a.so:system/lib/hw/copybit.msm7627a.so \
-    vendor/huawei/c8813/proprietary/lib/hw/gralloc.msm7627a.so:system/lib/hw/gralloc.msm7627a.so \
-    vendor/huawei/c8813/proprietary/lib/hw/hwcomposer.msm7627a.so:system/lib/hw/hwcomposer.msm7627a.so \
-    vendor/huawei/c8813/proprietary/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so \
+    vendor/huawei/c8813/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+    vendor/huawei/c8813/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/huawei/c8813/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
     vendor/huawei/c8813/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/huawei/c8813/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/huawei/c8813/proprietary/lib/libcontrast.so:system/lib/libcontrast.so
+    vendor/huawei/c8813/proprietary/lib/libcontrast.so:system/lib/libcontrast.so \
+    vendor/huawei/c8813/proprietary/lib/libadc.so:system/lib/libadc.so \
+    vendor/huawei/c8813/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so
+
+#PRODUCT_COPY_FILES += \
+#    vendor/huawei/c8813/proprietary/lib/libproduct_bt_check.so:system/lib/libproduct_bt_check.so \
+#    vendor/huawei/c8813/proprietary/lib/libwifidiag.so:system/lib/libwifidiag.so \
+#    vendor/huawei/c8813/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so \
+#    vendor/huawei/c8813/proprietary/bin/ath_supplicant:system/bin/ath_supplicant \
+#    vendor/huawei/c8813/proprietary/bin/widevinetest_rpc:system/bin/widevinetest_rpc \
+#    vendor/huawei/c8813/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+#    vendor/huawei/c8813/proprietary/bin/hostapd:system/bin/hostapd \
+#    vendor/huawei/c8813/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
+#    vendor/huawei/c8813/proprietary/bin/ds_fmc_appd:system/bin/bin/ds_fmc_appd
+
+#    vendor/huawei/c8813/proprietary/bin/rild:system/bin/rild \
+#    vendor/huawei/c8813/proprietary/lib/libril.so:system/lib/libril.so \
